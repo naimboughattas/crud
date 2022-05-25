@@ -1,0 +1,26 @@
+{
+    "name": "sosighty/crud",
+    "description": "Package used to generate crud for admin purposes",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "naimboughattas",
+        "email": "n.boughattas@so-sighty.fr"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sosighty\\CRUD\\": "src/",
+            "Sosighty\\CRUD\\App\\": "app/"
+        }
+    },
+    "require": {},
+    "require-dev": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sosighty\\CRUD\\App\\Providers\\CrudServiceProvider"
+            ]
+        }
+    }
+}
