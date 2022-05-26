@@ -10,8 +10,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Sosighty\\CRUD\\": "src/",
-            "Sosighty\\CRUD\\App\\": "app/"
+            "Sosighty\\CRUD\\": "src/"
         }
     },
     "require": {},
